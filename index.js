@@ -1,1 +1,1 @@
-module.exports = require("./lib/restreamer-server");
+module.exports = require("./lib/restreamer");
