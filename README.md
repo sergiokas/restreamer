@@ -3,7 +3,7 @@ Restreamer creates stand-alone servers for re-encoding live network audio stream
 A single server instance allow any number of audio streams. It may work with video, but I haven't tried thoroughly. 
 
 ## Requirements 
-- An *NIX box with ffmpeg.
+- An Unix/Linux box with ffmpeg.
 
 ## Installation
 
@@ -46,6 +46,12 @@ will use AC3 as the output format for the given media stream. If overriding is n
 
 ## Formats
 Input and output formats availability are limited exclusively by your ffmpeg installation. Run ''ffmpeg -formats'' to know which ones are available in your system.   
+
+If you're unsure if a live media stream can be re-encoded, run this in the console:
+
+	ffmpeg -i [your media url] -f ogg ./output.ogg
+
+If the ogg file is playable, everything should work just fine. Otherwise, you can check what's wrong in the ffmpeg output. 
 
 ## Questions
 Github issues, or dev at sergiokas dot com 
