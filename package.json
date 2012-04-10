@@ -1,14 +1,14 @@
 {
   "name": "restreamer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone server to re-encode live media streams into other output formats",
   "keywords": ["ffmpeg","media","audio","video","server"],
   "author": "Sergio Kaszczyszyn <dev@sergiokas.com>",
   "bugs": {
       "mail": "dev@sergiokas.com",
-      "url": "github issues url"
+      "url": "https://github.com/sergiokas/restreamer/issues"
   },
-  "repository": "git://github.com/sergiokas/restreamer.git",
+  "repository": "git@github.com:sergiokas/restreamer.git",
   "dependencies": {"fluent-ffmpeg": ">=0.3.0"},
   "engines" : { "node" : ">=0.4.0" },
   "main": "index.js",
