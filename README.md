@@ -4,7 +4,12 @@ A single server instance allow any number of audio streams. It may work with vid
 
 ## Requirements 
 - An *NIX box with ffmpeg.
-- fluent-ffmpeg node module (listed as dependency in npm).  
+
+## Installation
+
+	npm install restreamer
+
+(fluent-ffmpeg node module will be installed as dependency)  
 
 ## Usage
 Start the server with default parameters
