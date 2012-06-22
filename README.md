@@ -14,7 +14,7 @@ A single server instance allow any number of audio streams. It may work with vid
 ## Usage
 Start the server with default parameters
 	
-	var rs = require('restreamer');
+	var restreamer = require('restreamer');
 	// Start server with default port (17856), converting to the Ogg format.
 	restreamer.create().listen();
 
